@@ -1,0 +1,7 @@
+<beans>
+	<bean id="u" class="com.dingxiang.dao.impl.UserDAOImpl" />
+	<bean id="userService" class="com.dingxiang.service.UserService" >
+		<property name="userDao" bean="u"/>
+	</bean>
+	
+</beans>
