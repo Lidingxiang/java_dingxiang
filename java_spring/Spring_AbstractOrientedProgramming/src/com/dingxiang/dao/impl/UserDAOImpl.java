@@ -5,7 +5,6 @@ import com.dingxiang.model.User;
 
 public class UserDAOImpl implements UserDAO {
 
-	@Override
 	public void save(User user) {
 		//Hibernate
 		//JDBC
